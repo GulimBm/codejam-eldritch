@@ -6,31 +6,69 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <title>Ancient Horror</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <section class="main-page">
         <div class="card-choice">
-            <div class="azatot">
+            <div class="ancient-card azatot">
                 <img src="assets/Ancients/Azathoth.jpg" alt="">
             </div>
-            <div class="ktulhu">
+            <div class="ancient-card ktulhu">
                 <img src="assets/Ancients/Cthulthu.jpg" alt="">
             </div>
-            <div class="sotot">
+            <div class="ancient-card sotot">
                 <img src="assets/Ancients/IogSothoth.jpg" alt="">
             </div>
-            <div class="subnigura">
+            <div class="ancient-card subnigura">
                 <img src="assets/Ancients/ShubNiggurath.jpg" alt="">
             </div>
         </div>
-        <div class="difficulty-choice">
-            <button class="easy">Легко</button>
-            <button class="media">Средне</button>
-            <button class="hard">Сложно</button>
+        <div class="difficulty-choice hidden">
+            <button class="difficulty easy">Легко</button>
+            <button class="difficulty media">Средне</button>
+            <button class="difficulty hard">Сложно</button>
         </div>
-        <div class="counter">
-            <button class="shuffle">Тасовать</button>
+
+        <div class="stage-container ">
+            <button class="shuffle-button hidden">Тасовать</button>
+            <div class="right-stuff hidden">
+                <div class="counter">
+                <div class="stage">
+                    <span class="stage-text">Первая стадия</span>
+                    <div class="stage-container">
+                        <div class="dot green">0</div>
+                        <div class="dot brown">0</div>
+                        <div class="dot blue">0</div>
+                    </div>
+                </div>
+                <div class="stage">
+                    <span class="stage-text">Вторая стадия</span>
+                    <div class="stage-container">
+                        <div class="dot green">2</div>
+                        <div class="dot brown">3</div>
+                        <div class="dot blue">2</div>
+                    </div>
+                </div>
+                <div class="stage">
+                    <span class="stage-text">Третья стадия</span>
+                    <div class="stage-container">
+                        <div class="dot green">2</div>
+                        <div class="dot brown">4</div>
+                        <div class="dot blue">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="assets/mythicCardBackground.jpg" alt="deck">
+            </div>
+            <div class="last-card">
+                <img src="assets/MythicCards/green/green1.jpg" alt="">
+            </div>
+            </div>
+            
         </div>
     </section>
 </body>
 </html>
+<!--  -->
